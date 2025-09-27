@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Home, Bed, MapPin, Award, CalendarCheck, ChevronLeft, Save } from 'lucide-react';
+import { Hop as Home, Bed, MapPin, Award, CalendarCheck, ChevronLeft, Save } from 'lucide-react';
 import { useChaletContext } from '@/context/use-chalet';
 import { Badge } from '@/components/ui/badge';
 

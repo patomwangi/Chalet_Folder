@@ -6,7 +6,7 @@ import { VoucherGenerator } from '../add-chalet/voucher-system/voucher-generator
 import { PricingSetup } from '../add-chalet/room-management/pricing-setup';
 import { AvailabilityManagement } from '../add-chalet/room-management/availability-management';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { BarChart3, FileText, DollarSign, CalendarX } from 'lucide-react';
+import { ChartBar as BarChart3, FileText, DollarSign, CalendarX } from 'lucide-react';
 
 const AdminModule = () => {
   // Mock data - replace with actual data from your API

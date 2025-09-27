@@ -17,7 +17,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
 } from '@/components/ui/alert-dialog';
-import { MoreVertical, Trash2Icon, Edit, Ban, FileText } from 'lucide-react';
+import { MoveVertical as MoreVertical, Trash2 as Trash2Icon, CreditCard as Edit, Ban, FileText } from 'lucide-react';
 import { Chalet } from './types/types';
 import { useToast } from '@/hooks/use-toast';
 import React from 'react';

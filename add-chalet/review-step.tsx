@@ -248,7 +248,7 @@ export const ReviewStep: React.FC<ReviewStepProps> = ({
           title="Availability"
           icon={CalendarCheck}
           data={chaletData.availability as Availability}
-          editStep={3}
+          editStep={4}
           renderContent={(availability) => (
             <div className="space-y-2">
               <p>
@@ -256,6 +256,36 @@ export const ReviewStep: React.FC<ReviewStepProps> = ({
               </p>
               <div className="text-sm text-neutral-600">
                 {availability.unavailableDates.length} dates blocked
+              </div>
+              <div className="mt-4 p-4 bg-blue-50 rounded-lg">
+                <h4 className="font-medium text-blue-800 mb-2">Voucher System Integration</h4>
+                <p className="text-sm text-blue-700">
+                  ✓ Serialized voucher numbers will be generated for all bookings<br/>
+                  ✓ Self-catering basis clearly indicated on vouchers<br/>
+                  ✓ All amenities will be listed on confirmation vouchers<br/>
+                  ✓ Check-in (2:00 PM) and Check-out (11:00 AM) times included<br/>
+                  ✓ Cancellation and refund policies attached<br/>
+                  ✓ Vouchers automatically emailed to guests and hotel
+                </p>
+              </div>
+              <div className="mt-4 p-4 bg-green-50 rounded-lg">
+                <h4 className="font-medium text-green-800 mb-2">Enhanced Room Management</h4>
+                <p className="text-sm text-green-700">
+                  ✓ High season pricing enabled (Easter & Christmas holidays)<br/>
+                  ✓ Minimum night requirements during peak seasons<br/>
+                  ✓ Room blocking for maintenance and internal use<br/>
+                  ✓ Edit, block, and delete actions available in admin panel
+                </p>
+              </div>
+              <div className="mt-4 p-4 bg-purple-50 rounded-lg">
+                <h4 className="font-medium text-purple-800 mb-2">Advanced Reporting</h4>
+                <p className="text-sm text-purple-700">
+                  ✓ Detailed booking and revenue reports<br/>
+                  ✓ Occupancy rate analysis<br/>
+                  ✓ Individual chalet performance metrics<br/>
+                  ✓ Customer behavior analytics<br/>
+                  ✓ Automated report generation and email delivery
+                </p>
               </div>
             </div>
           )}
